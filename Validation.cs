@@ -60,7 +60,10 @@ internal static class Validation
                 continue;
             }
             var parts = range.Split('-');
-            if (parts.Length != 2)
+            //More validations can be added here
+            if (parts.Length != 2 
+                || parts[0] == "" 
+                || parts[1] == "")
             {
                 return "Input contains invalid characters in range data.";
             }

@@ -16,6 +16,13 @@ class Program
         {
             var input = Console.ReadLine();
 
+            if (input?.ToLower() == "clear" || input?.ToLower() == "cls")
+            {
+                Console.Clear();
+                Console.WriteLine("Enter the input (type 'exit' to quit): ");
+                continue;
+            }
+
             if (input?.ToLower() == "exit")
             {
                 Console.WriteLine("Exiting...");
