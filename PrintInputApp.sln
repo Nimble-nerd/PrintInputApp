@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrintInputApp", "PrintInputApp.csproj", "{23B91EB7-7D39-4341-84E1-0353AFF641BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrintInputApp", "App\PrintInputApp.csproj", "{24DE09CF-53A2-46BA-A32D-8B0FFA72DA73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintInputAppTests", "Tests\PrintInputAppTests\PrintInputAppTests.csproj", "{395F6627-DFA4-424B-AC79-31E4A1BE2873}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{23B91EB7-7D39-4341-84E1-0353AFF641BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{23B91EB7-7D39-4341-84E1-0353AFF641BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{23B91EB7-7D39-4341-84E1-0353AFF641BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{23B91EB7-7D39-4341-84E1-0353AFF641BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24DE09CF-53A2-46BA-A32D-8B0FFA72DA73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24DE09CF-53A2-46BA-A32D-8B0FFA72DA73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24DE09CF-53A2-46BA-A32D-8B0FFA72DA73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24DE09CF-53A2-46BA-A32D-8B0FFA72DA73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{395F6627-DFA4-424B-AC79-31E4A1BE2873}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{395F6627-DFA4-424B-AC79-31E4A1BE2873}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{395F6627-DFA4-424B-AC79-31E4A1BE2873}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{395F6627-DFA4-424B-AC79-31E4A1BE2873}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
