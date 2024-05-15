@@ -9,8 +9,7 @@ class Program
     static void Main(string[] args)
     {
         bool exitRequested = false;
-
-        Console.WriteLine("Enter the input (type 'exit' to quit): ");
+        InitMessage();
 
         while (!exitRequested)
         {
@@ -19,6 +18,8 @@ class Program
             if (input?.ToLower() == "clear" || input?.ToLower() == "cls")
             {
                 Console.Clear();
+                InitMessage();
+                continue;
             }
 
             if (input?.ToLower() == "exit")
@@ -33,10 +34,14 @@ class Program
                 var validationIssues = Validation.IsValidInput(input);
                 if (validationIssues.Count > 0)
                 {
+                    Console.WriteLine();
+                    Console.WriteLine("Validation issues: ");
                     foreach (var validationIssue in validationIssues)
                     {
                         Console.WriteLine(validationIssue);
                     }
+                    Console.WriteLine();
+                    InitMessage();
                     continue;
                 }
 
@@ -45,6 +50,9 @@ class Program
                 if (result?.Any() != null)
                 {
                     Console.WriteLine("Output: " + string.Join(",", result));
+                    Console.WriteLine();
+                    Console.WriteLine();
+                    InitMessage();
                 }
             }
         }
@@ -53,5 +61,10 @@ class Program
         {
             Environment.Exit(0);
         }
+    }
+
+    static void InitMessage()
+    {
+        Console.WriteLine("Enter the input (type 'exit' to quit): ");
     }
 }

@@ -48,7 +48,6 @@ internal static class ProcessInput
     /// <returns>A list of number based on the range of input i.e. 1-5</returns>
     private static IEnumerable<int> GetNumberFromRange(string[] rangOfInput)
     {
-
         if (!int.TryParse(rangOfInput[0], out int start)
             || !int.TryParse(rangOfInput[1], out int end))
         {
