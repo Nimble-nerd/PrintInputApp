@@ -1,0 +1,15 @@
+C:\Dev\Others\PrintInputApplication\App\bin\Debug\net8.0\PrintInputApp.exe
+C:\Dev\Others\PrintInputApplication\App\bin\Debug\net8.0\PrintInputApp.deps.json
+C:\Dev\Others\PrintInputApplication\App\bin\Debug\net8.0\PrintInputApp.runtimeconfig.json
+C:\Dev\Others\PrintInputApplication\App\bin\Debug\net8.0\PrintInputApp.dll
+C:\Dev\Others\PrintInputApplication\App\bin\Debug\net8.0\PrintInputApp.pdb
+C:\Dev\Others\PrintInputApplication\App\obj\Debug\net8.0\PrintInputApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\Others\PrintInputApplication\App\obj\Debug\net8.0\PrintInputApp.AssemblyInfoInputs.cache
+C:\Dev\Others\PrintInputApplication\App\obj\Debug\net8.0\PrintInputApp.AssemblyInfo.cs
+C:\Dev\Others\PrintInputApplication\App\obj\Debug\net8.0\PrintInputApp.csproj.CoreCompileInputs.cache
+C:\Dev\Others\PrintInputApplication\App\obj\Debug\net8.0\PrintInputApp.sourcelink.json
+C:\Dev\Others\PrintInputApplication\App\obj\Debug\net8.0\PrintInputApp.dll
+C:\Dev\Others\PrintInputApplication\App\obj\Debug\net8.0\refint\PrintInputApp.dll
+C:\Dev\Others\PrintInputApplication\App\obj\Debug\net8.0\PrintInputApp.pdb
+C:\Dev\Others\PrintInputApplication\App\obj\Debug\net8.0\PrintInputApp.genruntimeconfig.cache
+C:\Dev\Others\PrintInputApplication\App\obj\Debug\net8.0\ref\PrintInputApp.dll
