@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Dev\\PrintInputApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{23B91EB7-7D39-4341-84E1-0353AFF641BA}|PrintInputApp.csproj|c:\\dev\\printinputapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23B91EB7-7D39-4341-84E1-0353AFF641BA}|PrintInputApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23B91EB7-7D39-4341-84E1-0353AFF641BA}|PrintInputApp.csproj|c:\\dev\\printinputapp\\validation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23B91EB7-7D39-4341-84E1-0353AFF641BA}|PrintInputApp.csproj|solutionrelative:validation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23B91EB7-7D39-4341-84E1-0353AFF641BA}|PrintInputApp.csproj|c:\\dev\\printinputapp\\processinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23B91EB7-7D39-4341-84E1-0353AFF641BA}|PrintInputApp.csproj|solutionrelative:processinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85E30E82-D4D1-49B9-A71E-63299005D3EE}|..\\TestPrintInputApp\\TestPrintInputApp.csproj|c:\\dev\\testprintinputapp\\printinputapptests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProcessInput.cs",
+              "DocumentMoniker": "C:\\Dev\\PrintInputApp\\ProcessInput.cs",
+              "RelativeDocumentMoniker": "ProcessInput.cs",
+              "ToolTip": "C:\\Dev\\PrintInputApp\\ProcessInput.cs",
+              "RelativeToolTip": "ProcessInput.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T11:51:39.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PrintInputAppTests.cs",
+              "DocumentMoniker": "C:\\Dev\\TestPrintInputApp\\PrintInputAppTests.cs",
+              "RelativeDocumentMoniker": "..\\TestPrintInputApp\\PrintInputAppTests.cs",
+              "ToolTip": "C:\\Dev\\TestPrintInputApp\\PrintInputAppTests.cs",
+              "RelativeToolTip": "..\\TestPrintInputApp\\PrintInputAppTests.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T11:46:48.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Validation.cs",
+              "DocumentMoniker": "C:\\Dev\\PrintInputApp\\Validation.cs",
+              "RelativeDocumentMoniker": "Validation.cs",
+              "ToolTip": "C:\\Dev\\PrintInputApp\\Validation.cs",
+              "RelativeToolTip": "Validation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T11:00:52.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Dev\\PrintInputApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Dev\\PrintInputApp\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T10:18:35.565Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
