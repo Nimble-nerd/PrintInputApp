@@ -1,6 +1,5 @@
 ﻿using PrintInputApp;
-
-class Program
+partial class Program
 {
     /// <summary>
     /// Defines the entry point of the application.
@@ -15,14 +14,14 @@ class Program
         {
             var input = Console.ReadLine();
 
-            if (input?.ToLower() == "clear" || input?.ToLower() == "cls")
+            if (IsClearConsoleRequested(input))
             {
                 Console.Clear();
                 InitMessage();
                 continue;
             }
-
-            if (input?.ToLower() == "exit")
+            if (input?.ToLower() 
+                == Constants.Exit.ToString().ToLower())
             {
                 Console.WriteLine("Exiting...");
                 exitRequested = true;
@@ -63,8 +62,11 @@ class Program
         }
     }
 
+    private static bool IsClearConsoleRequested(string? input)
+        => input?.ToLower()
+                        == Constants.Clear.ToString().ToLower()
+                        || input?.ToLower() == Constants.Cls.ToString().ToLower();
+
     static void InitMessage()
-    {
-        Console.WriteLine("Enter the input (type 'exit' to quit): ");
-    }
+        => Console.WriteLine("Enter the input (type 'exit' to quit): ");
 }
